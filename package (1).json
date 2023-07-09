@@ -1,0 +1,18 @@
+{
+  "name": "nownodes-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "~4.16.1",
+    "express-validator": "^6.14.2",
+    "web3":"^1.0.0",
+    "strip-hex-prefix": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.5.8"
+  }
+}
